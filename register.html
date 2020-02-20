@@ -1,0 +1,138 @@
+<!-- Registration Page -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Register Page</title>
+	<link rel='icon' href='favicon.ico' type='image/x-icon'/>
+    <!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link href="../resources/css/my_style.css" rel="stylesheet">
+  </head>
+  <body>
+	
+	<img src="beproudcapaabanner.jpg" class="img-fluid" alt="Registration Page Banner for CU Football">
+    
+	<div class="container">
+  		<h2>Registration Page</h2>
+  			<form class="form-horizontal" action="home.html">
+
+    			<div class="form-group">
+      				<label class="control-label" for="name_id">Full Name: </label>
+      				<input type="text" class="form-control" id="name_id" placeholder="Enter Name" name="my_name_field">
+      			</div>
+
+      			<div>
+      				<label class="control-label" for="email_id">Email:</label>
+					<input type="email" class="form-control" id="email_id" name="my_email_field" placeholder="Enter Email">
+      			</div>
+      			<br>
+
+      			<div>
+      				<label class="control-label" for="password_id">Password:</label>
+					<input type="password" class="form-control" id="password_id" name="my_password_field" placeholder="Enter Password">
+      			</div>
+      			<br>
+
+      			<div>
+      				<label class="control-label" for="confirm_password_id">Confirm Password:</label>
+					<input type="password" class="form-control" id="confirm_password_id" name="my_confirm_password_field" placeholder="Confirm Password">
+      			</div>
+      			<br>
+
+      			<div>
+      				<label class="control-label" for="alumni_id">CU Boulder Alumni:</label>
+	      			<div class="form-check">
+	  					<input class="form-check-input" type="radio" name="alumni_option" id="alumni_option_1" value="option1" checked>
+	  					<label class="form-check-label" for="alumni_option_1">
+	    					Yes
+	  					</label>
+					</div>
+
+					<div class="form-check">
+	  					<input class="form-check-input" type="radio" name="alumni_option" id="alumni_option_2" value="option2">
+	  					<label class="form-check-label" for="alumni_option_2">
+	   						 No
+	  					</label>
+					</div>
+
+	      		<br>
+
+	      		<div>
+      				<label class="control-label" for="student_id">CU Boulder Student:</label>
+	      			<div class="form-check">
+	  					<input class="form-check-input" type="radio" name="student_option" id="student_option_1" value="option1" checked>
+	  					<label class="form-check-label" for="student_option_1">
+	    					Yes
+	  					</label>
+					</div>
+
+					<div class="form-check">
+	  					<input class="form-check-input" type="radio" name="student_option" id="student_option_2" value="option2">
+	  					<label class="form-check-label" for="student_option_2">
+	   						 No
+	  					</label>
+					</div>
+
+				<br>
+
+	      		<div>
+      				<label class="control-label" for="student_id">Student Status:</label>
+	      			<div class="form-check">
+	  					<input class="form-check-input" type="radio" name="student_status" id="student_status_undergrad" value="option1" checked>
+	  					<label class="form-check-label" for="student_status_undergrad">
+	    					Undergrad
+	  					</label>
+	  					<select name="select_choice">
+  							<option selected>Select Student Year</option>
+  							<option value="1">Freshman</option>
+  							<option value="2">Sophmore</option>
+  							<option value="3">Junior</option>
+  							<option value="3">Senior</option>
+						</select>
+					</div>
+
+					<div class="form-check">
+	  					<input class="form-check-input" type="radio" name="student_status" id="student_status_graduate" value="option2">
+	  					<label class="form-check-label" for="student_status_graduate">
+	   						 Graduate
+	  					</label>
+	  					<select name="select_choice">
+  							<option selected>Select Student Year</option>
+  							<option value="1">MA</option>
+  							<option value="2">MBA</option>
+  							<option value="3">PhD</option>
+						</select>
+					</div>
+
+	      			<br>
+
+	      			<div>
+	      				<input type="submit" value="submit" class="btn btn-primary btn-block">
+	      			</div>
+	      		</div>
+      			<!--
+				Todo: Create a form with the following fields:
+					1. Name Text Field
+					2. Email Text Field
+					3. Password Text Field
+					4. Password Confirmation Text Field
+					5. Email Text Field
+					6. CU Boulder Alumni Radio Button
+					7. CU Boulder Student Radio Button
+					8. CU Boulder Undergrad/Grad Radio Button
+					9. Undergraduate Select (Freshman-Senior)
+					10. Graduate Select (MA, MBA, PhD)
+					11. Submit Button (links to home page)
+
+			-->
+
+  			</form>
+	</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
